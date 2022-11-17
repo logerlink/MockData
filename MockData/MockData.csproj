@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>loger</Authors>
+    <Company />
+    <Product />
+    <PackageProjectUrl>https://github.com/logerlink/MockData</PackageProjectUrl>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Description>MockData.Net——.net mock data，协助开发人员快速构建虚拟数据</Description>
+    <Version>1.0.0</Version>
+    <PackageId>MockData.Net</PackageId>
+    <RepositoryUrl>https://github.com/logerlink/MockData</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>

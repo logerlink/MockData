@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockData", "MockData\MockData.csproj", "{0087536B-B851-45CA-A3FB-A35A8AC254C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockDataTest", "MockDataTest\MockDataTest.csproj", "{C2DEC97B-89DF-4E43-BC3F-32CC38FB30C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0087536B-B851-45CA-A3FB-A35A8AC254C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0087536B-B851-45CA-A3FB-A35A8AC254C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0087536B-B851-45CA-A3FB-A35A8AC254C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0087536B-B851-45CA-A3FB-A35A8AC254C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DEC97B-89DF-4E43-BC3F-32CC38FB30C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DEC97B-89DF-4E43-BC3F-32CC38FB30C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DEC97B-89DF-4E43-BC3F-32CC38FB30C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DEC97B-89DF-4E43-BC3F-32CC38FB30C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AB73024-1961-4FC9-A64B-E7DA889DB4B3}
+	EndGlobalSection
+EndGlobal
