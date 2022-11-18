@@ -91,7 +91,7 @@ namespace MockData
             if (string.IsNullOrWhiteSpace(province)) province = GetProvince();
             if (!_chinaCityDic.ContainsKey(province)) return "";
             var list = _chinaCityDic[province];
-            if (list.Any()) return "";
+            if (!list.Any()) return "";
             var value = StaticData.GetRandom().Next(0, list.Count);
             return list[value];
         }

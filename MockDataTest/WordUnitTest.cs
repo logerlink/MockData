@@ -31,5 +31,16 @@ namespace MockDataTest
             var password1 = MockData.Word.GetPassword(20,50);
             Console.WriteLine(x);
         }
+
+        [Test]
+        public void Test()
+        {
+            var x = MockData.Word.GetWord(20, false, Lang.EN);
+            var xx = MockData.Word.GetDecimalFormat(10, 50, "￥");
+            var title = MockData.Word.GetTitle();
+            var content = MockData.Word.GetContent(Lang.EN);
+            var code = MockData.Word.GetCode(8, true);
+            var password = MockData.Word.GetPassword();
+        }
     }
 }

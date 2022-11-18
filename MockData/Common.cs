@@ -66,7 +66,7 @@ namespace MockData
         /// <exception cref="Exception"></exception>
         public static string RepeatStr(string source,int min = 3,int max = 10)
         {
-            return string.Join(",", RepeatArr(source, min, max));
+            return string.Join("", RepeatArr(source, min, max));
         }
         /// <summary>
         /// 重复某个值，并转为集合返回
