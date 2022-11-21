@@ -4,7 +4,7 @@ MockData.Net——.net mock data，协助开发人员快速构建虚拟数据
 #### 安装使用
 
 ```shell
-dotnet add package MockData.Net --version 1.0.0
+dotnet add package MockData.Net
 ```
 
 更多下载方式：[NuGet Gallery | MockData.Net](https://www.nuget.org/packages/MockData.Net)
